@@ -12,4 +12,4 @@ Using Switchless
 5. Select your osu!.exe file.
 6. Click the "Start osu!" button.
 ```
-![Image of Switchless](https://i.imgur.com/1S4klPJ.png)
+![Image of Switchless](https://i.imgur.com/aZfQe8V.png)
