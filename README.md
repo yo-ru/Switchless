@@ -1,5 +1,5 @@
 Switchless
-------=
+------
 A modern osu! server switcher using peppy's "devserver" startup variable.
 
 Using Switchless
