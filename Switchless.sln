@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switchless", "Switchless\Switchless.csproj", "{81CB5102-8AD5-469F-A9C1-847EB0B6ECB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81CB5102-8AD5-469F-A9C1-847EB0B6ECB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CB5102-8AD5-469F-A9C1-847EB0B6ECB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CB5102-8AD5-469F-A9C1-847EB0B6ECB9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CB5102-8AD5-469F-A9C1-847EB0B6ECB9}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8211176-0787-4A84-8223-2BEA8B3A8D82}
+	EndGlobalSection
+EndGlobal
