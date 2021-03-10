@@ -35,7 +35,7 @@ namespace Switchless
             {
                 Title = "Select your osu!.exe file",
                 InitialDirectory = @"c:\%appdata%",
-                FileName = "osu!*",
+                FileName = "osu!.exe",
                 Filter = "Exe Files (.exe)|*.exe|All Files (*.*)|*.*",
                 FilterIndex = 1,
                 RestoreDirectory = true
@@ -120,7 +120,9 @@ namespace Switchless
                 }
                 finally
                 {
+                    // Exit application.
                     Console.WriteLine("DEBUG: Started osu! at: " + this.osuPath + " on: " + this.osuServer + ".");
+                    Application.Exit();
                 }
             }
         }
@@ -129,8 +131,7 @@ namespace Switchless
         private void osuServerText(object sender, EventArgs e)
         {
             // Set this.osuServer on TextChange.
-            TextBox currentText = sender as TextBox;
-            if (currentText != null)
+            if (sender is TextBox currentText)
             {
                 this.osuServer = currentText.Text;
             }
