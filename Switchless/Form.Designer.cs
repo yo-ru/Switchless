@@ -66,7 +66,7 @@ namespace Switchless
             this.selectOsu.Name = "selectOsu";
             this.selectOsu.Size = new System.Drawing.Size(174, 86);
             this.selectOsu.TabIndex = 1;
-            this.selectOsu.Text = "Select osu! EXE";
+            this.selectOsu.Text = "Select osu!.exe";
             this.selectOsu.UseVisualStyleBackColor = false;
             this.selectOsu.Click += new System.EventHandler(this.selectOsuClick);
             // 
@@ -105,7 +105,7 @@ namespace Switchless
             this.switchlessLabel.AutoSize = true;
             this.switchlessLabel.Font = new System.Drawing.Font("Whitney BookSC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.switchlessLabel.ForeColor = System.Drawing.Color.White;
-            this.switchlessLabel.Location = new System.Drawing.Point(289, 146);
+            this.switchlessLabel.Location = new System.Drawing.Point(285, 146);
             this.switchlessLabel.Name = "switchlessLabel";
             this.switchlessLabel.Size = new System.Drawing.Size(227, 48);
             this.switchlessLabel.TabIndex = 5;
