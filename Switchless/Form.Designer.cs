@@ -91,7 +91,7 @@ namespace Switchless
             this.exitApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitApp.Font = new System.Drawing.Font("Whitney Light", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitApp.ForeColor = System.Drawing.Color.White;
-            this.exitApp.Location = new System.Drawing.Point(752, 1);
+            this.exitApp.Location = new System.Drawing.Point(752, 0);
             this.exitApp.Name = "exitApp";
             this.exitApp.Size = new System.Drawing.Size(49, 39);
             this.exitApp.TabIndex = 4;
@@ -105,7 +105,7 @@ namespace Switchless
             this.switchlessLabel.AutoSize = true;
             this.switchlessLabel.Font = new System.Drawing.Font("Whitney BookSC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.switchlessLabel.ForeColor = System.Drawing.Color.White;
-            this.switchlessLabel.Location = new System.Drawing.Point(285, 146);
+            this.switchlessLabel.Location = new System.Drawing.Point(281, 146);
             this.switchlessLabel.Name = "switchlessLabel";
             this.switchlessLabel.Size = new System.Drawing.Size(227, 48);
             this.switchlessLabel.TabIndex = 5;
