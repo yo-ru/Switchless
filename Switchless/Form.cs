@@ -34,7 +34,7 @@ namespace Switchless
             OpenFileDialog fdlg = new OpenFileDialog
             {
                 Title = "Select your osu!.exe file",
-                InitialDirectory = @"c:\%appdata%",
+                InitialDirectory = @"%appdata%/../Local/osu!",
                 FileName = "osu!.exe",
                 Filter = "Exe Files (.exe)|*.exe|All Files (*.*)|*.*",
                 FilterIndex = 1,
