@@ -36,7 +36,6 @@ namespace Switchless
             this.exitApp = new System.Windows.Forms.Button();
             this.switchlessLabel = new System.Windows.Forms.Label();
             this.osuServerLabel = new System.Windows.Forms.Label();
-            this.cuttingEdgeNoteLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // startOsu
@@ -124,24 +123,12 @@ namespace Switchless
             this.osuServerLabel.Text = "osu! server domain:";
             this.osuServerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // cuttingEdgeNoteLabel
-            // 
-            this.cuttingEdgeNoteLabel.AutoSize = true;
-            this.cuttingEdgeNoteLabel.Font = new System.Drawing.Font("Whitney", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cuttingEdgeNoteLabel.ForeColor = System.Drawing.Color.White;
-            this.cuttingEdgeNoteLabel.Location = new System.Drawing.Point(12, 425);
-            this.cuttingEdgeNoteLabel.Name = "cuttingEdgeNoteLabel";
-            this.cuttingEdgeNoteLabel.Size = new System.Drawing.Size(407, 16);
-            this.cuttingEdgeNoteLabel.TabIndex = 7;
-            this.cuttingEdgeNoteLabel.Text = "NOTE: For now, you must be running the latest osu!cuttingedge build!";
-            // 
             // Switchless
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(47)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.cuttingEdgeNoteLabel);
             this.Controls.Add(this.osuServerLabel);
             this.Controls.Add(this.switchlessLabel);
             this.Controls.Add(this.exitApp);
@@ -168,7 +155,6 @@ namespace Switchless
         private System.Windows.Forms.Button exitApp;
         private System.Windows.Forms.Label switchlessLabel;
         private System.Windows.Forms.Label osuServerLabel;
-        private System.Windows.Forms.Label cuttingEdgeNoteLabel;
     }
 }
 
